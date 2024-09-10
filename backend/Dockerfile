@@ -5,7 +5,7 @@ WORKDIR /backend
 
 
 COPY . /backend
-RUN ls /backend
+RUN ls
 RUN pip install -r requirements.txt
 
 
