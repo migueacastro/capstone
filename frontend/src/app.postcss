@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+html,
+body {
+	@apply h-full overflow-hidden;
+}
+* {
+    --cds-text-secondary: theme('colors.gray.500');
+    --cds-icon-primary: theme('colors.gray.500');
+    
+}
+/* rocket theme */
+@font-face {
+	font-family: 'Space Grotesk';
+	src: url('/fonts/SpaceGrotesk.ttf');
+	font-display: swap;
+}
+
+.animate-show {
+        @apply animate-[appear_600ms_cubic-bezier(0.4,_0,_0.2,_1)_0ms_forwards];
+}
+.animate-hide {
+        @apply animate-[appear_600ms_cubic-bezier(0.4,_0,_0.2,_1)_0ms_backwards];
+}
+
+   @keyframes show-text {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    }
+    @keyframes hide-text {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+    }
+    @keyframes show-sidebar {
+    0% {
+        width: 5rem;
+    }
+    100% {
+        width: 14rem;
+    }
+    }
+    @keyframes hide-sidebar {
+    0% {
+        width: 14rem;
+    }
+    50% {
+        width: 14rem;
+    }
+    100% {
+        width: 5rem;
+    }
+    }
+    @keyframes hide-mobile-navbar {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10rem);
+    }
+    }
+    @keyframes show-mobile-navbar {
+    0% {
+        transform: translateY(-10rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
+    }
+    .show-text {
+        animation: show-text 400ms ease-in-out;
+    }
+    .hide-text {
+        animation: hide-text 200ms ease-in-out;
+    }
+
+    .show-sidebar {
+        animation: show-sidebar 200ms ease-in-out;
+    }
+    .hide-sidebar {
+        animation: hide-sidebar 400ms ease-in-out;
+    }
+    .show-navbar {
+        animation: show-mobile-navbar 1000ms ease-in-out;
+    }
+    .hide-navbar {
+        animation: hide-mobile-navbar 1000ms ease-in-out;
+    }
+
+
+.droppable {
+    @apply outline-dashed outline-2 outline-offset-2 ;
+}
+
+.droppable * {
+    pointer-events: none;
+}
+
+.cds--chart-holder[data-carbon-theme=g90] {
+  .chart-grid-backdrop {
+    fill: none;
+  }
+}
+
+$my-tooltip-background-color: blue;
+
+.bx--cc--tooltip {
+  background-color: $my-tooltip-background-color;
+}
+
+@keyframes show-text-mobile {
+    0% {
+        opacity: 0;
+        height: 0;
+    }
+    50% {
+        opacity: 0;
+        height: 50;
+    }
+    100% {
+        opacity: 1;
+        height: 100;
+    }
+    }
+    @keyframes hide-text-mobile {
+    0% {
+        opacity: 1;
+        height: 100%;
+    }
+    100% {
+        opacity: 0;
+        height: 0;
+    }
+}
+.show-text-mobile {
+        animation: show-text-mobile 400ms ease-in-out;
+    }
+.hide-text-mobile {
+    animation: hide-text-mobile 200ms ease-in-out;
+}
