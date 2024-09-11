@@ -1,6 +1,9 @@
 FROM node:21.7.3-alpine
 
 WORKDIR /frontend
+
+
+
 COPY . .
 RUN npm install
 RUN npm run build

@@ -1,19 +1,26 @@
 services:
-  api:
-    build: ./backend       
+  redis:
+    image: redis:latest
     ports:
-      - "8000:8000"
-    volumes:
-      - ./backend:/backend
-    command: python manage.py runserver 
-    depends_on:
-      - django-q
+      - "6379:6379"
+    restart: always
     network_mode: host
   django-q:
     build: ./backend
     volumes:
       - ./backend:/backend
     command: python manage.py qcluster
+    network_mode: host
+  api:
+    build: ./backend       
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/backend
+    command: gunicorn capstone.wsgi:application
+    depends_on:
+      - django-q
+      - redis
     network_mode: host
   web:
     build: ./frontend

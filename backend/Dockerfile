@@ -5,8 +5,9 @@ WORKDIR /backend
 
 
 COPY . /backend
+
 RUN ls
-RUN pip install -r ./backend/requirements.txt
+RUN pip install -r requirements.txt
 
 
 EXPOSE 8000
