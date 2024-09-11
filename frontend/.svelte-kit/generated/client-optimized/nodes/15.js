@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/(app)/password-reset/[uidb64]/[token]/+page.svelte";

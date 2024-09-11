@@ -1,0 +1,1002 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "name": "internal",
+    "src": ".svelte-kit/generated/server/internal.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js",
+      "_shared-server.js"
+    ]
+  },
+  "_Avatar.js": {
+    "file": "chunks/Avatar.js",
+    "name": "Avatar",
+    "imports": [
+      "_utils.js",
+      "_ssr.js"
+    ]
+  },
+  "_Datatable.svelte_svelte_type_style_lang.js": {
+    "file": "_app/immutable/assets/Datatable.B6XqG18y.css",
+    "src": "_Datatable.svelte_svelte_type_style_lang.js"
+  },
+  "_DatatableHeader.js": {
+    "file": "chunks/DatatableHeader.js",
+    "name": "DatatableHeader",
+    "imports": [
+      "_utils.js",
+      "_ssr.js",
+      "_stores2.js",
+      "_stores3.js",
+      "_ProgressBar.svelte_svelte_type_style_lang.js",
+      "_index.js",
+      "_client.js",
+      "_stores4.js"
+    ],
+    "css": [
+      "_app/immutable/assets/Datatable.B6XqG18y.css"
+    ]
+  },
+  "_Form.js": {
+    "file": "chunks/Form.js",
+    "name": "Form",
+    "imports": [
+      "_utils.js",
+      "_ssr.js",
+      "_client.js",
+      "_stores3.js",
+      "_ProgressBar.svelte_svelte_type_style_lang.js",
+      "_index2.js",
+      "_stores4.js",
+      "_index.js"
+    ]
+  },
+  "_ProgressBar.svelte_svelte_type_style_lang.js": {
+    "file": "chunks/ProgressBar.svelte_svelte_type_style_lang.js",
+    "name": "ProgressBar.svelte_svelte_type_style_lang",
+    "imports": [
+      "_index.js",
+      "_utils.js"
+    ],
+    "css": [
+      "_app/immutable/assets/ProgressBar.Cirlo5Z8.css"
+    ]
+  },
+  "_Toast.js": {
+    "file": "chunks/Toast.js",
+    "name": "Toast",
+    "imports": [
+      "_utils.js",
+      "_ssr.js",
+      "_stores.js",
+      "_ProgressBar.svelte_svelte_type_style_lang.js",
+      "_stores3.js",
+      "_index2.js"
+    ]
+  },
+  "_auth.js": {
+    "file": "chunks/auth.js",
+    "name": "auth",
+    "imports": [
+      "_client.js",
+      "_index.js"
+    ]
+  },
+  "_cinema.js": {
+    "file": "chunks/cinema.js",
+    "name": "cinema",
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "_client.js": {
+    "file": "chunks/client.js",
+    "name": "client",
+    "imports": [
+      "_exports.js"
+    ]
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js",
+    "name": "exports"
+  },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "name": "index",
+    "imports": [
+      "_utils.js"
+    ]
+  },
+  "_index2.js": {
+    "file": "chunks/index2.js",
+    "name": "index",
+    "imports": [
+      "_utils.js"
+    ]
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "name": "internal",
+    "imports": [
+      "_ssr.js",
+      "_shared-server.js"
+    ]
+  },
+  "_popup.js": {
+    "file": "chunks/popup.js",
+    "name": "popup",
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "_shared-server.js": {
+    "file": "chunks/shared-server.js",
+    "name": "shared-server"
+  },
+  "_ssr.js": {
+    "file": "chunks/ssr.js",
+    "name": "ssr",
+    "imports": [
+      "_utils.js"
+    ]
+  },
+  "_stores.js": {
+    "file": "chunks/stores.js",
+    "name": "stores",
+    "imports": [
+      "_index.js",
+      "_ssr.js"
+    ],
+    "css": [
+      "_app/immutable/assets/stores.CspOkcCJ.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/fa-brands-400.O7nZalfM.woff2",
+      "_app/immutable/assets/fa-brands-400.Dur5g48u.ttf",
+      "_app/immutable/assets/fa-regular-400.DgEfZSYE.woff2",
+      "_app/immutable/assets/fa-regular-400.Bf3rG5Nx.ttf",
+      "_app/immutable/assets/fa-solid-900.DOQJEhcS.woff2",
+      "_app/immutable/assets/fa-solid-900.BV3CbEM2.ttf",
+      "_app/immutable/assets/fa-v4compatibility.BX8XWJtE.woff2",
+      "_app/immutable/assets/fa-v4compatibility.B9MWI-E6.ttf"
+    ]
+  },
+  "_stores2.js": {
+    "file": "chunks/stores2.js",
+    "name": "stores",
+    "imports": [
+      "_index.js",
+      "_ssr.js"
+    ]
+  },
+  "_stores3.js": {
+    "file": "chunks/stores3.js",
+    "name": "stores",
+    "imports": [
+      "_index.js",
+      "_ssr.js"
+    ]
+  },
+  "_stores4.js": {
+    "file": "chunks/stores4.js",
+    "name": "stores",
+    "imports": [
+      "_ssr.js",
+      "_client.js"
+    ]
+  },
+  "_utils.js": {
+    "file": "chunks/utils.js",
+    "name": "utils"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf": {
+    "file": "_app/immutable/assets/fa-brands-400.Dur5g48u.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2": {
+    "file": "_app/immutable/assets/fa-brands-400.O7nZalfM.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf": {
+    "file": "_app/immutable/assets/fa-regular-400.Bf3rG5Nx.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2": {
+    "file": "_app/immutable/assets/fa-regular-400.DgEfZSYE.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf": {
+    "file": "_app/immutable/assets/fa-solid-900.BV3CbEM2.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2": {
+    "file": "_app/immutable/assets/fa-solid-900.DOQJEhcS.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.ttf": {
+    "file": "_app/immutable/assets/fa-v4compatibility.B9MWI-E6.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2": {
+    "file": "_app/immutable/assets/fa-v4compatibility.BX8XWJtE.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "name": "entries/fallbacks/error.svelte",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_utils.js",
+      "_ssr.js",
+      "_stores4.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "name": "index",
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js",
+      "_exports.js",
+      "_index.js",
+      "_shared-server.js"
+    ]
+  },
+  "src/routes/(app)/+layout.svelte": {
+    "file": "entries/pages/(app)/_layout.svelte.js",
+    "name": "entries/pages/(app)/_layout.svelte",
+    "src": "src/routes/(app)/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_utils.js",
+      "_ssr.js",
+      "_stores.js",
+      "_ProgressBar.svelte_svelte_type_style_lang.js",
+      "_Toast.js",
+      "_auth.js",
+      "_cinema.js",
+      "_client.js",
+      "_stores4.js"
+    ]
+  },
+  "src/routes/(app)/+page.svelte": {
+    "file": "entries/pages/(app)/_page.svelte.js",
+    "name": "entries/pages/(app)/_page.svelte",
+    "src": "src/routes/(app)/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_utils.js",
+      "_ssr.js",
+      "_cinema.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.EKmKsbKj.css"
+    ]
+  },
+  "src/routes/(app)/bills/[id]/+page.js": {
+    "file": "entries/pages/(app)/bills/_id_/_page.js",
+    "name": "entries/pages/(app)/bills/_id_/_page",
+    "src": "src/routes/(app)/bills/[id]/+page.js",
+    "isEntry": true
+  },
+  "src/routes/(app)/bills/[id]/+page.svelte": {
+    "file": "entries/pages/(app)/bills/_id_/_page.svelte.js",
+    "name": "entries/pages/(app)/bills/_id_/_page.svelte",
+    "src": "src/routes/(app)/bills/[id]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_cinema.js"
+    ]
+  },
+  "src/routes/(app)/branches/+page.js": {
+    "file": "entries/pages/(app)/branches/_page.js",
+    "name": "entries/pages/(app)/branches/_page",
+    "src": "src/routes/(app)/branches/+page.js",
+    "isEntry": true,
+    "imports": [
+      "_cinema.js"
+    ]
+  },
+  "src/routes/(app)/branches/+page.svelte": {
+    "file": "entries/pages/(app)/branches/_page.svelte.js",
+    "name": "entries/pages/(app)/branches/_page.svelte",
+    "src": "src/routes/(app)/branches/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_utils.js",
+      "_ssr.js",
+      "_cinema.js"
+    ]
+  },
+  "src/routes/(app)/branches/[id]/+page.js": {
+    "file": "entries/pages/(app)/branches/_id_/_page.js",
+    "name": "entries/pages/(app)/branches/_id_/_page",
+    "src": "src/routes/(app)/branches/[id]/+page.js",
+    "isEntry": true,
+    "imports": [
+      "_cinema.js"
+    ]
+  },
+  "src/routes/(app)/branches/[id]/+page.svelte": {
+    "file": "entries/pages/(app)/branches/_id_/_page.svelte.js",
+    "name": "entries/pages/(app)/branches/_id_/_page.svelte",
+    "src": "src/routes/(app)/branches/[id]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_utils.js",
+      "_ssr.js",
+      "_cinema.js",
+      "_client.js",
+      "_ProgressBar.svelte_svelte_type_style_lang.js"
+    ]
+  },
+  "src/routes/(app)/login/+page.svelte": {
+    "file": "entries/pages/(app)/login/_page.svelte.js",
+    "name": "entries/pages/(app)/login/_page.svelte",
+    "src": "src/routes/(app)/login/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_client.js"
+    ]
+  },
+  "src/routes/(app)/movies/+page.svelte": {
+    "file": "entries/pages/(app)/movies/_page.svelte.js",
+    "name": "entries/pages/(app)/movies/_page.svelte",
+    "src": "src/routes/(app)/movies/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_utils.js",
+      "_ssr.js",
+      "_cinema.js"
+    ]
+  },
+  "src/routes/(app)/movies/[id]/+page.js": {
+    "file": "entries/pages/(app)/movies/_id_/_page.js",
+    "name": "entries/pages/(app)/movies/_id_/_page",
+    "src": "src/routes/(app)/movies/[id]/+page.js",
+    "isEntry": true,
+    "imports": [
+      "_cinema.js"
+    ]
+  },
+  "src/routes/(app)/movies/[id]/+page.svelte": {
+    "file": "entries/pages/(app)/movies/_id_/_page.svelte.js",
+    "name": "entries/pages/(app)/movies/_id_/_page.svelte",
+    "src": "src/routes/(app)/movies/[id]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_utils.js",
+      "_ssr.js",
+      "_cinema.js",
+      "_client.js",
+      "_ProgressBar.svelte_svelte_type_style_lang.js"
+    ]
+  },
+  "src/routes/(app)/movies/coming-soon/+page.svelte": {
+    "file": "entries/pages/(app)/movies/coming-soon/_page.svelte.js",
+    "name": "entries/pages/(app)/movies/coming-soon/_page.svelte",
+    "src": "src/routes/(app)/movies/coming-soon/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_utils.js",
+      "_ssr.js",
+      "_cinema.js"
+    ]
+  },
+  "src/routes/(app)/password-reset/+page.svelte": {
+    "file": "entries/pages/(app)/password-reset/_page.svelte.js",
+    "name": "entries/pages/(app)/password-reset/_page.svelte",
+    "src": "src/routes/(app)/password-reset/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_client.js",
+      "_stores3.js",
+      "_ProgressBar.svelte_svelte_type_style_lang.js"
+    ]
+  },
+  "src/routes/(app)/password-reset/[uidb64]/[token]/+page.svelte": {
+    "file": "entries/pages/(app)/password-reset/_uidb64_/_token_/_page.svelte.js",
+    "name": "entries/pages/(app)/password-reset/_uidb64_/_token_/_page.svelte",
+    "src": "src/routes/(app)/password-reset/[uidb64]/[token]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_utils.js",
+      "_ssr.js",
+      "_stores3.js",
+      "_ProgressBar.svelte_svelte_type_style_lang.js",
+      "_stores4.js",
+      "_client.js"
+    ]
+  },
+  "src/routes/(app)/profile/+page.svelte": {
+    "file": "entries/pages/(app)/profile/_page.svelte.js",
+    "name": "entries/pages/(app)/profile/_page.svelte",
+    "src": "src/routes/(app)/profile/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_utils.js",
+      "_ssr.js",
+      "_auth.js",
+      "_client.js",
+      "_ProgressBar.svelte_svelte_type_style_lang.js",
+      "_Avatar.js"
+    ]
+  },
+  "src/routes/(app)/register/+page.svelte": {
+    "file": "entries/pages/(app)/register/_page.svelte.js",
+    "name": "entries/pages/(app)/register/_page.svelte",
+    "src": "src/routes/(app)/register/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_client.js"
+    ]
+  },
+  "src/routes/(app)/sessions/[id]/+page.js": {
+    "file": "entries/pages/(app)/sessions/_id_/_page.js",
+    "name": "entries/pages/(app)/sessions/_id_/_page",
+    "src": "src/routes/(app)/sessions/[id]/+page.js",
+    "isEntry": true
+  },
+  "src/routes/(app)/sessions/[id]/+page.svelte": {
+    "file": "entries/pages/(app)/sessions/_id_/_page.svelte.js",
+    "name": "entries/pages/(app)/sessions/_id_/_page.svelte",
+    "src": "src/routes/(app)/sessions/[id]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_utils.js",
+      "_ssr.js",
+      "_client.js",
+      "_cinema.js",
+      "_auth.js",
+      "_shared-server.js",
+      "_stores3.js",
+      "_ProgressBar.svelte_svelte_type_style_lang.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/+layout.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/_layout.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/_layout.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_client.js",
+      "_ProgressBar.svelte_svelte_type_style_lang.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/age-discounts/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/age-discounts/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/age-discounts/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/age-discounts/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_shared-server.js",
+      "_DatatableHeader.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/age-discounts/[id]/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/age-discounts/_id_/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/age-discounts/_id_/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/age-discounts/[id]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Form.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/age-discounts/add/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/age-discounts/add/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/age-discounts/add/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/age-discounts/add/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Form.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/bills/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/bills/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/bills/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/bills/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_shared-server.js",
+      "_DatatableHeader.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/bills/[id]/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/bills/_id_/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/bills/_id_/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/bills/[id]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Form.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/bills/add/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/bills/add/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/bills/add/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/bills/add/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Form.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/branches/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/branches/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/branches/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/branches/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_shared-server.js",
+      "_DatatableHeader.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/branches/[id]/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/branches/_id_/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/branches/_id_/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/branches/[id]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Form.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/branches/add/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/branches/add/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/branches/add/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/branches/add/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Form.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/cities/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/cities/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/cities/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/cities/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_shared-server.js",
+      "_DatatableHeader.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/cities/[id]/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/cities/_id_/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/cities/_id_/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/cities/[id]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Form.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/cities/add/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/cities/add/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/cities/add/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/cities/add/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Form.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/day-discounts/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/day-discounts/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/day-discounts/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/day-discounts/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_shared-server.js",
+      "_DatatableHeader.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/day-discounts/[id]/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/day-discounts/_id_/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/day-discounts/_id_/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/day-discounts/[id]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Form.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/day-discounts/add/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/day-discounts/add/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/day-discounts/add/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/day-discounts/add/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Form.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/discount-schedule/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/discount-schedule/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/discount-schedule/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/discount-schedule/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_utils.js",
+      "_ssr.js",
+      "_popup.js",
+      "_stores3.js",
+      "_ProgressBar.svelte_svelte_type_style_lang.js",
+      "_cinema.js",
+      "_client.js"
+    ],
+    "css": [
+      "_app/immutable/assets/Datatable.B6XqG18y.css"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/movieads/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/movieads/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/movieads/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/movieads/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_shared-server.js",
+      "_DatatableHeader.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/movieads/[id]/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/movieads/_id_/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/movieads/_id_/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/movieads/[id]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Form.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/movieads/add/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/movieads/add/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/movieads/add/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/movieads/add/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Form.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/movies/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/movies/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/movies/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/movies/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_shared-server.js",
+      "_DatatableHeader.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/movies/[id]/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/movies/_id_/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/movies/_id_/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/movies/[id]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Form.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/movies/add/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/movies/add/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/movies/add/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/movies/add/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Form.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/rooms/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/rooms/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/rooms/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/rooms/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_shared-server.js",
+      "_DatatableHeader.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/rooms/[id]/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/rooms/_id_/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/rooms/_id_/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/rooms/[id]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Form.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/rooms/add/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/rooms/add/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/rooms/add/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/rooms/add/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Form.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/schedule/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/schedule/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/schedule/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/schedule/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_utils.js",
+      "_ssr.js",
+      "_popup.js",
+      "_stores2.js",
+      "_stores3.js",
+      "_ProgressBar.svelte_svelte_type_style_lang.js",
+      "_cinema.js",
+      "_client.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/sessions/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/sessions/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/sessions/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/sessions/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_shared-server.js",
+      "_DatatableHeader.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/sessions/[id]/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/sessions/_id_/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/sessions/_id_/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/sessions/[id]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Form.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/sessions/add/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/sessions/add/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/sessions/add/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/sessions/add/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Form.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/staff/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/staff/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/staff/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/staff/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_utils.js",
+      "_ssr.js",
+      "_shared-server.js",
+      "_DatatableHeader.js",
+      "_auth.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/staff/[id]/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/staff/_id_/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/staff/_id_/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/staff/[id]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_utils.js",
+      "_ssr.js",
+      "_Form.js",
+      "_auth.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/staff/add/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/staff/add/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/staff/add/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/staff/add/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_utils.js",
+      "_ssr.js",
+      "_Form.js",
+      "_auth.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/ticket-types/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/ticket-types/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/ticket-types/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/ticket-types/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_shared-server.js",
+      "_DatatableHeader.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/ticket-types/[id]/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/ticket-types/_id_/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/ticket-types/_id_/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/ticket-types/[id]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Form.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/ticket-types/add/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/ticket-types/add/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/ticket-types/add/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/ticket-types/add/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Form.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/tickets/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/tickets/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/tickets/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/tickets/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_shared-server.js",
+      "_DatatableHeader.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/tickets/[id]/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/tickets/_id_/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/tickets/_id_/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/tickets/[id]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Form.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/tickets/add/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/tickets/add/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/tickets/add/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/tickets/add/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Form.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/users/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/users/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/users/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/users/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_shared-server.js",
+      "_DatatableHeader.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/users/[id]/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/users/_id_/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/users/_id_/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/users/[id]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Form.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/(tables)/users/add/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/(tables)/users/add/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/(tables)/users/add/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/(tables)/users/add/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Form.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/+layout.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/_layout.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/_layout.svelte",
+    "src": "src/routes/(dashboard)/dashboard/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_utils.js",
+      "_ssr.js",
+      "_stores.js",
+      "_stores2.js",
+      "_ProgressBar.svelte_svelte_type_style_lang.js",
+      "_Toast.js",
+      "_index2.js",
+      "_auth.js",
+      "_client.js",
+      "_stores4.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_utils.js",
+      "_ssr.js",
+      "_cinema.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.DX6A2lkx.css"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/profile/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/profile/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/profile/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/profile/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_utils.js",
+      "_ssr.js",
+      "_auth.js",
+      "_client.js",
+      "_ProgressBar.svelte_svelte_type_style_lang.js",
+      "_Avatar.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/settings/+layout.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/settings/_layout.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/settings/_layout.svelte",
+    "src": "src/routes/(dashboard)/dashboard/settings/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "src/routes/(dashboard)/dashboard/settings/+page.svelte": {
+    "file": "entries/pages/(dashboard)/dashboard/settings/_page.svelte.js",
+    "name": "entries/pages/(dashboard)/dashboard/settings/_page.svelte",
+    "src": "src/routes/(dashboard)/dashboard/settings/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_utils.js",
+      "_ssr.js",
+      "_auth.js"
+    ]
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "name": "entries/pages/_layout.svelte",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_stores.js",
+      "_client.js",
+      "_index.js",
+      "_popup.js",
+      "_stores2.js",
+      "_stores3.js",
+      "_ProgressBar.svelte_svelte_type_style_lang.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.Bp8Sa_L5.css"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+	"/(app)": [],
+	"/": [],
+	"/(app)/bills/[id]": [
+		"src/routes/(app)/bills/[id]/+page.js"
+	],
+	"/(app)/branches": [
+		"src/routes/(app)/branches/+page.js"
+	],
+	"/(app)/branches/[id]": [
+		"src/routes/(app)/branches/[id]/+page.js"
+	],
+	"/(dashboard)/dashboard/(tables)": [],
+	"/(dashboard)/dashboard": [],
+	"/(dashboard)/dashboard/(tables)/age-discounts": [],
+	"/(dashboard)/dashboard/(tables)/age-discounts/add": [],
+	"/(dashboard)/dashboard/(tables)/age-discounts/[id]": [],
+	"/(dashboard)/dashboard/(tables)/bills": [],
+	"/(dashboard)/dashboard/(tables)/bills/add": [],
+	"/(dashboard)/dashboard/(tables)/bills/[id]": [],
+	"/(dashboard)/dashboard/(tables)/branches": [],
+	"/(dashboard)/dashboard/(tables)/branches/add": [],
+	"/(dashboard)/dashboard/(tables)/branches/[id]": [],
+	"/(dashboard)/dashboard/(tables)/cities": [],
+	"/(dashboard)/dashboard/(tables)/cities/add": [],
+	"/(dashboard)/dashboard/(tables)/cities/[id]": [],
+	"/(dashboard)/dashboard/(tables)/day-discounts": [],
+	"/(dashboard)/dashboard/(tables)/day-discounts/add": [],
+	"/(dashboard)/dashboard/(tables)/day-discounts/[id]": [],
+	"/(dashboard)/dashboard/(tables)/discount-schedule": [],
+	"/(dashboard)/dashboard/(tables)/movieads": [],
+	"/(dashboard)/dashboard/(tables)/movieads/add": [],
+	"/(dashboard)/dashboard/(tables)/movieads/[id]": [],
+	"/(dashboard)/dashboard/(tables)/movies": [],
+	"/(dashboard)/dashboard/(tables)/movies/add": [],
+	"/(dashboard)/dashboard/(tables)/movies/[id]": [],
+	"/(dashboard)/dashboard/profile": [],
+	"/(dashboard)/dashboard/(tables)/rooms": [],
+	"/(dashboard)/dashboard/(tables)/rooms/add": [],
+	"/(dashboard)/dashboard/(tables)/rooms/[id]": [],
+	"/(dashboard)/dashboard/(tables)/schedule": [],
+	"/(dashboard)/dashboard/(tables)/sessions": [],
+	"/(dashboard)/dashboard/(tables)/sessions/add": [],
+	"/(dashboard)/dashboard/(tables)/sessions/[id]": [],
+	"/(dashboard)/dashboard/settings": [],
+	"/(dashboard)/dashboard/(tables)/staff": [],
+	"/(dashboard)/dashboard/(tables)/staff/add": [],
+	"/(dashboard)/dashboard/(tables)/staff/[id]": [],
+	"/(dashboard)/dashboard/(tables)/ticket-types": [],
+	"/(dashboard)/dashboard/(tables)/ticket-types/add": [],
+	"/(dashboard)/dashboard/(tables)/ticket-types/[id]": [],
+	"/(dashboard)/dashboard/(tables)/tickets": [],
+	"/(dashboard)/dashboard/(tables)/tickets/add": [],
+	"/(dashboard)/dashboard/(tables)/tickets/[id]": [],
+	"/(dashboard)/dashboard/(tables)/users": [],
+	"/(dashboard)/dashboard/(tables)/users/add": [],
+	"/(dashboard)/dashboard/(tables)/users/[id]": [],
+	"/(app)/login": [],
+	"/(app)/movies": [],
+	"/(app)/movies/coming-soon": [],
+	"/(app)/movies/[id]": [
+		"src/routes/(app)/movies/[id]/+page.js"
+	],
+	"/(app)/password-reset": [],
+	"/(app)/password-reset/[uidb64]/[token]": [],
+	"/(app)/profile": [],
+	"/(app)/register": [],
+	"/(app)/sessions/[id]": [
+		"src/routes/(app)/sessions/[id]/+page.js"
+	]
+}
