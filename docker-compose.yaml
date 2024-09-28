@@ -13,19 +13,15 @@ services:
     network_mode: host
   api:
     build: ./backend       
-    ports:
-      - "8000:8000"
     volumes:
       - ./backend:/backend
-    command: gunicorn capstone.wsgi:application
+    command: gunicorn -b :8000 capstone.wsgi:application
     depends_on:
       - django-q
       - redis
     network_mode: host
   web:
     build: ./frontend
-    ports:
-      - "3000:3000"
     volumes:
       - ./frontend:/frontend
     network_mode: host

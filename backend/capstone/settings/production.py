@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 
 from pathlib import Path
 from datetime import timedelta
+from corsheaders.defaults import default_headers, default_methods
 import os
 
 from capstone.settings import get_secret
@@ -28,7 +29,6 @@ SECRET_KEY = get_secret('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -55,12 +55,14 @@ CHANNEL_LAYERS = {
         #"BACKEND": "channels.layers.InMemoryChannelLayer",
         "BACKEND": "channels_redis.core.RedisChannelLayer",
         "CONFIG": {
-            "hosts": [("localhost", 6379)],
+            "hosts": [("www.castroworks.lat/redis", 80)],
+            "path": "/redis",
         },
     },
 }
 
 MIDDLEWARE = [
+    
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'corsheaders.middleware.CorsMiddleware',
@@ -146,10 +148,20 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL = 'cinema.User'
 ACCOUNT_USER_MODEL_USERNAME_FIELD = 'email'
 
-CORS_ALLOW_CREDENTIALS = True
-CORS_ORIGIN_WHITELIST = [
-     'http://localhost:3000'
+CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOWED_ORIGINS = [
+    "https://57e8-190-120-249-133.ngrok-free.app"
 ]
+CORS_ALLOW_CREDENTIALS = False
+CORS_ALLOW_HEADERS = (
+    *default_headers,
+)
+CORS_ALLOW_METHODS = (
+    *default_methods,
+)
+ALLOWED_HOSTS = ['*']
+
+
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
