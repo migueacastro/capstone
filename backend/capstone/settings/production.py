@@ -148,14 +148,14 @@ AUTH_USER_MODEL = 'cinema.User'
 ACCOUNT_USER_MODEL_USERNAME_FIELD = 'email'
 
 CORS_ALLOWED_ORIGINS = [
-    "http://www.castroworks.lat",
-    "http://castroworks.lat",
+    "www.castroworks.lat",
+    "castroworks.lat",
 ]
 CORS_ALLOW_CREDENTIALS = True
 
 ALLOWED_HOSTS = [
-    "http://www.castroworks.lat",
-    "http://castroworks.lat"
+    "www.castroworks.lat",
+    "castroworks.lat"
     ]
 
 
