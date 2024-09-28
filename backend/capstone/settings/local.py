@@ -154,8 +154,7 @@ CORS_ALLOWED_ORIGINS = [
 ]
 CORS_ALLOW_CREDENTIALS = True
 ALLOWED_HOSTS = [
-    "www.castroworks.lat",
-    "castroworks.lat"
+    "localhost:8000"
     ]
 
 
