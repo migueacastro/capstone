@@ -5,7 +5,7 @@ services:
       - "6379:6379"
     restart: always
     network_mode: host
-  django-q:
+  djangoq:
     build: ./backend
     volumes:
       - ./backend:/backend
@@ -17,7 +17,7 @@ services:
       - ./backend:/backend
     command: gunicorn -b :8000 capstone.wsgi:application
     depends_on:
-      - django-q
+      - djangoq
       - redis
     network_mode: host
   web:
