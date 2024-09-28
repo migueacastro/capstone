@@ -148,11 +148,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL = 'cinema.User'
 ACCOUNT_USER_MODEL_USERNAME_FIELD = 'email'
 
-CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
-    "https://57e8-190-120-249-133.ngrok-free.app"
+    "http://www.castroworks.lat"
 ]
-CORS_ALLOW_CREDENTIALS = False
+CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_HEADERS = (
     *default_headers,
 )
@@ -180,7 +179,7 @@ EMAIL_PORT=587
 EMAIL_HOST_USER= os.getenv('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD=os.getenv('EMAIL_HOST_PASSWORD')
 
-FRONTEND_URL = 'localhost:3000'
+FRONTEND_URL = 'castroworks.lat'
 
 # DJANGO_Q
 
