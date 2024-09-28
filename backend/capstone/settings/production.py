@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 
 from pathlib import Path
 from datetime import timedelta
-from corsheaders.defaults import default_headers, default_methods
 import os
 
 from capstone.settings import get_secret
@@ -153,13 +152,11 @@ CORS_ALLOWED_ORIGINS = [
     "http://castroworks.lat",
 ]
 CORS_ALLOW_CREDENTIALS = True
-CORS_ALLOW_HEADERS = (
-    *default_headers,
-)
-CORS_ALLOW_METHODS = (
-    *default_methods,
-)
-ALLOWED_HOSTS = ['*']
+
+ALLOWED_HOSTS = [
+    "http://www.castroworks.lat",
+    "http://castroworks.lat"
+    ]
 
 
 
