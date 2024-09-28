@@ -149,7 +149,8 @@ AUTH_USER_MODEL = 'cinema.User'
 ACCOUNT_USER_MODEL_USERNAME_FIELD = 'email'
 
 CORS_ALLOWED_ORIGINS = [
-    "http://www.castroworks.lat"
+    "http://www.castroworks.lat",
+    "http://castroworks.lat",
 ]
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_HEADERS = (
@@ -191,3 +192,9 @@ Q_CLUSTER = {
     'queue_limit': 50,
     'bulk': 10,
 }
+
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+]
+STATIC_ROOT =  os.path.join(BASE_DIR, 'staticfiles')

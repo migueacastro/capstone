@@ -53,11 +53,12 @@ ASGI_APPLICATION = 'capstone.asgi.application'
 # On production, use redis
 CHANNEL_LAYERS = {
     "default": {
-        "BACKEND": "channels.layers.InMemoryChannelLayer",
-        #"BACKEND": "channels_redis.core.RedisChannelLayer",
-        #"CONFIG": {
-        #    "hosts": [("localhost", 6379)],
-        #},
+        #"BACKEND": "channels.layers.InMemoryChannelLayer",
+        "BACKEND": "channels_redis.core.RedisChannelLayer",
+        "CONFIG": {
+            "hosts": [("www.castroworks.lat/redis", 80)],
+            "path": "/redis",
+        },
     },
 }
 
@@ -148,11 +149,11 @@ AUTH_USER_MODEL = 'cinema.User'
 ACCOUNT_USER_MODEL_USERNAME_FIELD = 'email'
 
 
-CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
-    "https://57e8-190-120-249-133.ngrok-free.app"
+    "http://www.castroworks.lat",
+    "http://castroworks.lat",
 ]
-CORS_ALLOW_CREDENTIALS = False
+CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_HEADERS = (
     *default_headers,
 )
@@ -192,3 +193,9 @@ Q_CLUSTER = {
     'queue_limit': 50,
     'bulk': 10,
 }
+
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+]
+STATIC_ROOT =  os.path.join(BASE_DIR, 'staticfiles')
