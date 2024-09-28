@@ -80,7 +80,7 @@
 		await setTimeout(2000);
 		
 		if (!$cityStorage.length) {
-            const endpoint = "http://localhost:8000/api/cities/";
+            const endpoint = `${env.PUBLIC_BACKEND_URL}/api/cities/`;
             const response = await fetch(endpoint);
             const data = await response.json();
             cityStorage.set(data);

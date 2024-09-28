@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 from dotenv import load_dotenv
 from pathlib import Path
 from datetime import timedelta
+from corsheaders.defaults import default_headers, default_methods
 import os
 
 
@@ -52,12 +53,11 @@ ASGI_APPLICATION = 'capstone.asgi.application'
 # On production, use redis
 CHANNEL_LAYERS = {
     "default": {
-        #"BACKEND": "channels.layers.InMemoryChannelLayer",
-        "BACKEND": "channels_redis.core.RedisChannelLayer",
-        "CONFIG": {
-            "hosts": [("www.castroworks.lat/redis", 80)],
-            "path": "/redis",
-        },
+        "BACKEND": "channels.layers.InMemoryChannelLayer",
+        #"BACKEND": "channels_redis.core.RedisChannelLayer",
+        #"CONFIG": {
+        #    "hosts": [("localhost", 6379)],
+        #},
     },
 }
 
@@ -137,8 +137,6 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_URL = 'static/'
-
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
@@ -149,13 +147,11 @@ ACCOUNT_USER_MODEL_USERNAME_FIELD = 'email'
 
 
 CORS_ALLOWED_ORIGINS = [
-    "www.castroworks.lat",
-    "castroworks.lat",
+    "http://www.castroworks.lat",
+    "http://castroworks.lat",
 ]
 CORS_ALLOW_CREDENTIALS = True
-ALLOWED_HOSTS = [
-    "localhost"
-    ]
+ALLOWED_HOSTS = ['localhost', 'www.castroworks.lat', 'castroworks.lat']
 
 
 
@@ -176,7 +172,7 @@ EMAIL_PORT=587
 EMAIL_HOST_USER= os.getenv('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD=os.getenv('EMAIL_HOST_PASSWORD')
 
-FRONTEND_URL = 'localhost:3000'
+FRONTEND_URL = 'castroworks.lat'
 
 # DJANGO_Q
 
@@ -189,8 +185,3 @@ Q_CLUSTER = {
     'bulk': 10,
 }
 
-STATIC_URL = '/static/'
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'),
-]
-STATIC_ROOT =  os.path.join(BASE_DIR, 'staticfiles')
