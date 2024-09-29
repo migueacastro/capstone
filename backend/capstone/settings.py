@@ -10,26 +10,24 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
-from dotenv import load_dotenv
 from pathlib import Path
 from datetime import timedelta
-from corsheaders.defaults import default_headers, default_methods
 import os
 
-
-load_dotenv()
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent
 
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-340483-+xy4@4$b_et5^=*xjz2_xwohq!mu#!z4(pehod+%nz6'
+SECRET_KEY = os.getenv('SECRET_KEY', '3v3ryb0dyl13s')
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
+
 
 
 # Application definition
@@ -53,15 +51,17 @@ ASGI_APPLICATION = 'capstone.asgi.application'
 # On production, use redis
 CHANNEL_LAYERS = {
     "default": {
-        "BACKEND": "channels.layers.InMemoryChannelLayer",
-        #"BACKEND": "channels_redis.core.RedisChannelLayer",
-        #"CONFIG": {
-        #    "hosts": [("localhost", 6379)],
-        #},
+        #"BACKEND": "channels.layers.InMemoryChannelLayer",
+        "BACKEND": "channels_redis.core.RedisChannelLayer",
+        "CONFIG": {
+            "hosts": [("www.castroworks.lat/redis", 80)],
+            "path": "/redis",
+        },
     },
 }
 
 MIDDLEWARE = [
+    
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'corsheaders.middleware.CorsMiddleware',
@@ -137,6 +137,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
@@ -145,10 +146,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL = 'cinema.User'
 ACCOUNT_USER_MODEL_USERNAME_FIELD = 'email'
 
-
 CORS_ALLOWED_ORIGINS = [
-    "http://www.castroworks.lat",
-    "http://castroworks.lat",
+    "https://www.castroworks.lat",
+    "https://castroworks.lat",
 ]
 CORS_ALLOW_CREDENTIALS = True
 ALLOWED_HOSTS = ['localhost', 'www.castroworks.lat', 'castroworks.lat']
@@ -162,8 +162,10 @@ REST_FRAMEWORK = {
 }
 
 MEDIA_ROOT = BASE_DIR / 'media'
-MEDIA_URL = '/media/'
+MEDIA_URL = 'media/'
 
+STATIC_URL = 'static/'
+STATIC_ROOT = BASE_DIR / 'static'
 TOKEN_DURATION = timedelta(days=30) # Setting I created to easily change token duration
 
 EMAIL_USE_TLS=True

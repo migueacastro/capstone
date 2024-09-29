@@ -19,7 +19,7 @@ services:
     build: ./backend       
     volumes:
       - ./backend:/backend
-    command: gunicorn -b :8000 capstone.wsgi:application
+    command: gunicorn capstone.wsgi:application
     depends_on:
       - djangoq
       - redis
@@ -30,5 +30,3 @@ services:
     volumes:
       - ./frontend:/frontend
     network_mode: host
-
-
