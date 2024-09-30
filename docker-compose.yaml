@@ -1,5 +1,3 @@
-
-version: "3"
 services:
   redis:
     image: redis:latest
@@ -7,26 +5,29 @@ services:
       - "6379:6379"
     restart: always
     network_mode: host
-
-  djangoq:
+  django-q:
     build: ./backend
     volumes:
       - ./backend:/backend
     command: python manage.py qcluster
     network_mode: host
-
   api:
     build: ./backend       
+    ports:
+      - "8000:8000"
     volumes:
       - ./backend:/backend
     command: gunicorn capstone.wsgi:application
     depends_on:
-      - djangoq
+      - django-q
       - redis
     network_mode: host
-
   web:
     build: ./frontend
+    ports:
+      - "3000:3000"
     volumes:
       - ./frontend:/frontend
     network_mode: host
+
+

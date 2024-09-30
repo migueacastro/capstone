@@ -168,11 +168,12 @@ STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / 'static'
 TOKEN_DURATION = timedelta(days=30) # Setting I created to easily change token duration
 
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_USE_TLS=True
-EMAIL_HOST='smtp.gmail.com'
-EMAIL_PORT=587
-EMAIL_HOST_USER= os.getenv('EMAIL_HOST_USER')
-EMAIL_HOST_PASSWORD=os.getenv('EMAIL_HOST_PASSWORD')
+EMAIL_HOST='smtp.castroworks.lat'
+EMAIL_PORT=465
+EMAIL_HOST_USER='no-reply@castroworks.lat'
+EMAIL_HOST_PASSWORD=''
 
 FRONTEND_URL = 'castroworks.lat'
 
