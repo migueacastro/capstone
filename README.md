@@ -5,6 +5,7 @@
 This is the capstone project I made for CS50W. In this project I have developed
 a full stack web application that can be used by a Cinema Company to address
 session booking in the user's side and the resource managment in the staff/admin dashboard.
+Video Link: https://youtu.be/Hvn0Wv-icj4
 
 # Distinctiveness and Complexity
 
